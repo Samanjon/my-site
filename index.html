@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samanjon | Bog‘lanish</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Qorong'u fon */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Kartochka container */
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(15px);
+      padding: 30px 25px;
+      border-radius: 25px;
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    /* Sarlavha */
+    h1 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      letter-spacing: 1px;
+      color: #ffd6e8;
+    }
+
+    p {
+      opacity: 0.8;
+      margin-bottom: 25px;
+      font-size: 16px;
+    }
+
+    /* Tugmalar */
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 12px 0;
+      padding: 14px 0;
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 15px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      font-size: 16px;
+      gap: 10px;
+    }
+
+    a:hover {
+      background: #ffd6e8;
+      color: #333;
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 10px 25px rgba(255,214,232,0.4);
+    }
+
+    /* Animatsiya */
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    /* Responsive */
+    @media(max-width: 400px){
+      h1 { font-size: 24px; }
+      a { font-size: 14px; padding: 12px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Samanjon</h1>
+    <p>Men bilan bog‘lanish</p>
+
+    <a href="https://t.me/samanjon_O6" target="_blank">📩 Telegram lichka</a>
+    <a href="https://t.me/samanjon_O6" target="_blank">📢 Shaxsiy kanal</a>
+    <a href="https://www.instagram.com/samanjon__06" target="_blank">📸 Instagram</a>
+    <a href="tel:+998886485020">📞 Telefon</a>
+    <a href="mailto:250352@npuu.uz">✉️ Email yozish</a>
+  </div>
+
+</body>
+</html>
